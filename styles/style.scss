@@ -168,6 +168,11 @@ body {
     }
 }
 /* Media */
+@media (max-width: 960px) {
+    #card-body {
+        margin-top: 160px;
+    }
+}
 @media (max-width: 906px) {
     #card-body {
         margin-top: 100px;
