@@ -231,6 +231,12 @@ body {
   }
 }
 
+@media (max-width: 906px) {
+  #pop-up {
+    width: 200px;
+  }
+}
+
 @media (max-width: 800px) {
   #card-body {
     width: 87%;
@@ -246,6 +252,7 @@ body {
     min-height: 200px;
     background-size: cover;
     border-radius: 10px 10px 0 0;
+    min-width: auto;
   }
   #main-content {
     width: 80%;
@@ -347,6 +354,26 @@ body {
   }
   .dark-button {
     background-color: #d8e8f8;
+  }
+}
+
+@media (max-width: 400px) {
+  #pop-up img {
+    margin-right: 20px;
+  }
+  #pop-up span {
+    padding-left: 20px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 315px) {
+  #pop-up img {
+    margin-right: 7px;
+  }
+  #pop-up span {
+    padding-left: 10px;
+    padding-right: 0px;
   }
 }
 /*# sourceMappingURL=style.css.map */
